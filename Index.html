@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Ali's Profile part 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content hal-satu">
+                <center>
+                <img src="my photo .jpg" class="fotoku" alt="">
+                <h1 class="nama">Maulana Ali Karimi</h1>
+                <h2 class="kelas">11-RPL-2</h2>
+                </center>
+            </div>
+            <div class="content hal-dua">
+                <center>
+                  <h3 class="nama">Identitas: </h3>
+                  <p class="nama">Nama Lengkap: Maulana Ali Karimi</p>
+                  <p class="nama">Tempat/Tanggal Lahir: Surabaya, 04 Februari 2008</p>
+                  <p class="nama">Umur: 16 Tahun</p>
+                  <p class="nama">Alamat: Jl. Jetis kulon 1 no 72</p>
+                  <p class="nama" id="sekolah"> Sekolah: SMKN 1 Surabaya</p>
+                </center>
+            </div>
+            <div class="content hal-tiga">
+                <center>
+                    <h3 class="nama">Jumlah Saudara</h3>
+                    <p class="nama" id="saudara">Saya adalah anak pertama dari tiga bersaudara. Dua adik saya semuanya laki-laki. Dan saya yang menjadi contoh mereka berdua.
+                    </p>
+                </center>
+            </div>
+            <div class="content hal-empat">
+                <center>
+                    <h3 class="nama">Hobi dan Selera Music</h3>
+                    <p class="kelas">Hobiku adalah bersepeda, berenang, menggambar, dan bermain game. Selera musik saya adalah JKT48, Dewa 19, dan Alan Walker. Saya suka sekali bermain game Mobile Legends
+                    </p>
+                </center>
+            </div>
+            <div class="content hal-lima">
+                <center>
+                    <h3>My Activity</h3>
+                    <div class="card-container">
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">DI Sekolah</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">SMK Negeri 1 Surabaya</h6>
+                          <p class="card-text">Project yang telah saya lakukan di Kelas 11-RPL-2</p>
+                          <a href="job.html" class="card-link">My Job</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Permainan</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Mobile Legends Bang-Bang</h6>
+                          <p class="card-text">Game online yang biasa aku mainkan</p>
+                          <a href="game.html" class="card-link">Mobile Legends</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Selera Musik</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Spotify</h6>
+                          <p class="card-text">Musik yang aku sukai dan biasa aku dengarkan</p>
+                          <a href="music.html/music.html" class="card-link">my playlist</a>
+                        </div>
+                      </div>
+                      </div>
+                </center>
+            </div>
+            <div class="content hal-enam">
+                <center>
+                    <h3>Contact</h3>
+                    <p>+62-888-0574-3064 (Whatsapp)</p>
+                    <p id="Instagram">@maulanaali_karimi (Instagram)</p>
+                    <P>@Ali B aja Sih (Tiktok)</P>
+                </center>
+            </div>
+        </div>
+        <script>
+          const sekolah = document.getElementById("sekolah")
+          sekolah.textContent = "Pendidikan: SMK Negeri 1 Surabaya"
+
+          const saudara = document.getElementById("saudara")
+          saudara.textContent += "Saya berumur 16 tahun. Adik saya berumur 13 tahun (saudara kedua) dan 8 tahun (saudara ketiga)."
+
+          const Instagram = document.getElementById("Instagram")
+          Instagram.textContent = '';
+
+        </script>
+    </body>
+</html>

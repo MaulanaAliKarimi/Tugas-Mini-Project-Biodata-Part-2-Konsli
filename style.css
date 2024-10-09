@@ -1,0 +1,152 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr 1.5fr 0.5fr;
+    grid-template-areas: 
+    "hal-satu hal-satu hal-satu hal-satu hal-satu hal-satu"
+    "hal-satu hal-satu hal-satu hal-satu hal-satu hal-satu"
+    "hal-dua hal-dua hal-tiga hal-tiga hal-empat hal-empat"
+    "hal-lima hal-lima hal-lima hal-lima hal-lima hal-lima"
+    "hal-lima hal-lima hal-lima hal-lima hal-lima hal-lima"
+    "hal-enam hal-enam hal-enam hal-enam hal-enam hal-enam";
+    gap: 1em;
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hal-satu {
+    background-color: blue;
+    grid-area: hal-satu;
+}
+
+.nama {
+    color: azure;
+}
+
+.kelas {
+    color: azure;
+}
+
+.fotoku {
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+.hal-dua {
+    background-color: #4158A6;
+    grid-area: hal-dua;
+}
+
+.hal-tiga {
+    background-color: #5B99C2;
+    grid-area: hal-tiga;
+}
+
+.hal-empat {
+    background-color: #36C2CE;
+    grid-area: hal-empat;
+}
+
+.hal-lima {
+    background-color: lightblue;
+    grid-area: hal-lima;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px; /* Jarak antar kartu */
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.hal-enam {
+    background-color: #D6EFD8;
+    grid-area: hal-enam;
+}
+
+@media (max-width:800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 0.2fr 0.2fr 0.2fr 1.2fr 0.5fr;
+        grid-template-areas: 
+        "hal-satu"
+        "hal-dua"
+        "hal-tiga"
+        "hal-empat"
+        "hal-lima"
+        "hal-enam";
+        gap: 1em;
+    }
+
+    .content {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .hal-satu {
+        background-color: blue;
+        grid-area: hal-satu;
+    }
+    
+    .nama {
+        color: azure;
+    }
+    
+    .kelas {
+        color: azure;
+    }
+    
+    .fotoku {
+        padding-top: 5%;
+    }
+    
+    .hal-dua {
+        background-color: #4158A6;
+        grid-area: hal-dua;
+    }
+    
+    .hal-tiga {
+        background-color: #5B99C2;
+        grid-area: hal-tiga;
+    }
+    
+    .hal-empat {
+        background-color: #36C2CE;
+        grid-area: hal-empat;
+    }
+    
+    .hal-lima {
+        background-color: lightblue;
+        grid-area: hal-lima;
+    }
+    
+    .card-container {
+        display: flex;
+        gap: 20px; /* Jarak antar kartu */
+        justify-content: center;
+    }
+    
+    .card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .hal-enam {
+        background-color: #D6EFD8;
+        grid-area: hal-enam;
+    }
+}
